@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A11801E24700D360039681E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11801D24700D360039681E /* ViewController1.swift */; };
+		1A118020247013720039681E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11801F247013720039681E /* ViewController2.swift */; };
 		1A70DDC2246382C300C01B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDC1246382C300C01B71 /* AppDelegate.swift */; };
 		1A70DDC4246382C300C01B71 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A70DDC3246382C300C01B71 /* GameScene.sks */; };
 		1A70DDC6246382C300C01B71 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A70DDC5246382C300C01B71 /* Actions.sks */; };
-		1A70DDC8246382C300C01B71 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDC7246382C300C01B71 /* GameScene.swift */; };
 		1A70DDCA246382C300C01B71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDC9246382C300C01B71 /* GameViewController.swift */; };
 		1A70DDCD246382C300C01B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A70DDCB246382C300C01B71 /* Main.storyboard */; };
 		1A70DDCF246382C400C01B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A70DDCE246382C400C01B71 /* Assets.xcassets */; };
 		1A70DDD2246382C400C01B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A70DDD0246382C400C01B71 /* LaunchScreen.storyboard */; };
 		1A70DDDD246382C400C01B71 /* _048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDDC246382C400C01B71 /* _048Tests.swift */; };
 		1A70DDE8246382C400C01B71 /* _048UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDE7246382C400C01B71 /* _048UITests.swift */; };
+		1A70DDF62463833000C01B71 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDF52463833000C01B71 /* MainScene.swift */; };
+		1A70DDF82464C51900C01B71 /* BoardPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70DDF72464C51900C01B71 /* BoardPanel.swift */; };
+		1A7C5E822471562C0059DCCF /* MyDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C5E812471562C0059DCCF /* MyDialog.swift */; };
+		1AF12806246C1B48002E41CE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF12805246C1B48002E41CE /* Helper.swift */; };
+		1AF12818246E04EB002E41CE /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 1AF12817246E04EB002E41CE /* audio */; };
+		1AF1281A246FBB0D002E41CE /* MainVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF12819246FBB0D002E41CE /* MainVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A11801D24700D360039681E /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		1A11801F247013720039681E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		1A70DDBE246382C300C01B71 /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A70DDC1246382C300C01B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A70DDC3246382C300C01B71 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		1A70DDC5246382C300C01B71 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		1A70DDC7246382C300C01B71 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1A70DDC9246382C300C01B71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1A70DDCC246382C300C01B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A70DDCE246382C400C01B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +61,12 @@
 		1A70DDE3246382C400C01B71 /* 2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A70DDE7246382C400C01B71 /* _048UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _048UITests.swift; sourceTree = "<group>"; };
 		1A70DDE9246382C500C01B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A70DDF52463833000C01B71 /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		1A70DDF72464C51900C01B71 /* BoardPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPanel.swift; sourceTree = "<group>"; };
+		1A7C5E812471562C0059DCCF /* MyDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDialog.swift; sourceTree = "<group>"; };
+		1AF12805246C1B48002E41CE /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1AF12817246E04EB002E41CE /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		1AF12819246FBB0D002E41CE /* MainVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 		1A70DDB5246382C300C01B71 = {
 			isa = PBXGroup;
 			children = (
+				1AF12817246E04EB002E41CE /* audio */,
 				1A70DDC0246382C300C01B71 /* 2048 */,
 				1A70DDDB246382C400C01B71 /* 2048Tests */,
 				1A70DDE6246382C400C01B71 /* 2048UITests */,
@@ -106,12 +121,18 @@
 				1A70DDC1246382C300C01B71 /* AppDelegate.swift */,
 				1A70DDC3246382C300C01B71 /* GameScene.sks */,
 				1A70DDC5246382C300C01B71 /* Actions.sks */,
-				1A70DDC7246382C300C01B71 /* GameScene.swift */,
 				1A70DDC9246382C300C01B71 /* GameViewController.swift */,
 				1A70DDCB246382C300C01B71 /* Main.storyboard */,
 				1A70DDCE246382C400C01B71 /* Assets.xcassets */,
 				1A70DDD0246382C400C01B71 /* LaunchScreen.storyboard */,
 				1A70DDD3246382C400C01B71 /* Info.plist */,
+				1A70DDF52463833000C01B71 /* MainScene.swift */,
+				1A70DDF72464C51900C01B71 /* BoardPanel.swift */,
+				1AF12805246C1B48002E41CE /* Helper.swift */,
+				1AF12819246FBB0D002E41CE /* MainVIewController.swift */,
+				1A11801D24700D360039681E /* ViewController1.swift */,
+				1A11801F247013720039681E /* ViewController2.swift */,
+				1A7C5E812471562C0059DCCF /* MyDialog.swift */,
 			);
 			path = 2048;
 			sourceTree = "<group>";
@@ -241,6 +262,7 @@
 				1A70DDCD246382C300C01B71 /* Main.storyboard in Resources */,
 				1A70DDC4246382C300C01B71 /* GameScene.sks in Resources */,
 				1A70DDCF246382C400C01B71 /* Assets.xcassets in Resources */,
+				1AF12818246E04EB002E41CE /* audio in Resources */,
 				1A70DDD2246382C400C01B71 /* LaunchScreen.storyboard in Resources */,
 				1A70DDC6246382C300C01B71 /* Actions.sks in Resources */,
 			);
@@ -267,9 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A70DDC8246382C300C01B71 /* GameScene.swift in Sources */,
+				1A70DDF62463833000C01B71 /* MainScene.swift in Sources */,
+				1A118020247013720039681E /* ViewController2.swift in Sources */,
 				1A70DDCA246382C300C01B71 /* GameViewController.swift in Sources */,
+				1AF12806246C1B48002E41CE /* Helper.swift in Sources */,
 				1A70DDC2246382C300C01B71 /* AppDelegate.swift in Sources */,
+				1A7C5E822471562C0059DCCF /* MyDialog.swift in Sources */,
+				1A11801E24700D360039681E /* ViewController1.swift in Sources */,
+				1A70DDF82464C51900C01B71 /* BoardPanel.swift in Sources */,
+				1AF1281A246FBB0D002E41CE /* MainVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF564F45J8;
 				INFOPLIST_FILE = 2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF564F45J8;
 				INFOPLIST_FILE = 2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
